@@ -1,0 +1,8 @@
+﻿@page "/cancel"
+@model PaymentCancelledModel
+@{
+    ViewData["Title"] = "Payment Cancelled";
+}
+
+<h1>Subscription payment cancelled.</h1>
+<p><a href="@Model.CheckoutUrl">Please try again.</a></p>

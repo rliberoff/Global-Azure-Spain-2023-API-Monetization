@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GlobalAzureSpain2023.Demo.ApimMonetization.Web", "GlobalAzureSpain2023.Demo.ApimMonetization.Web\GlobalAzureSpain2023.Demo.ApimMonetization.Web.csproj", "{948CED0B-8747-43F5-9E62-873E33EF4354}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GlobalAzureSpain2023.Demo.ApimMonetization.Func.Extractor", "GlobalAzureSpain2023.Demo.ApimMonetization.Func.Extractor\GlobalAzureSpain2023.Demo.ApimMonetization.Func.Extractor.csproj", "{34CE443D-A96A-41FC-A4B9-D0B95DE0C03E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Solution Items", "_Solution Items", "{44D935B7-6956-404A-B7C1-69ED049150F0}"
+	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		global.json = global.json
+		LICENSE.txt = LICENSE.txt
+		NuGet.config = NuGet.config
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{948CED0B-8747-43F5-9E62-873E33EF4354}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{948CED0B-8747-43F5-9E62-873E33EF4354}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{948CED0B-8747-43F5-9E62-873E33EF4354}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{948CED0B-8747-43F5-9E62-873E33EF4354}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34CE443D-A96A-41FC-A4B9-D0B95DE0C03E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34CE443D-A96A-41FC-A4B9-D0B95DE0C03E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34CE443D-A96A-41FC-A4B9-D0B95DE0C03E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34CE443D-A96A-41FC-A4B9-D0B95DE0C03E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {707AF5BE-5959-4715-8C8F-C2AF9F81E86C}
+	EndGlobalSection
+EndGlobal

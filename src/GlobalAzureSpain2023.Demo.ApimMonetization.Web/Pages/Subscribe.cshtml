@@ -1,0 +1,22 @@
+﻿@page
+@model GlobalAzureSpain2023.Demo.ApimMonetization.Web.Pages.SubscribeModel
+@{
+    ViewData["Title"] = "Subscribe";
+}
+
+<div>
+    <h1>Sign Up</h1>
+    <form method="post">
+        <div class="d-inline-flex flex-column w-100">
+            <label class="p-2" asp-for="SubscriptionRequest.SubscriptionName">Subscription Name</label>
+            <input class="p-2" asp-for="SubscriptionRequest.SubscriptionName" />
+            <input asp-for="SubscriptionRequest.Operation" type="hidden" />
+            <input asp-for="SubscriptionRequest.ProductId" type="hidden" />
+            <input asp-for="SubscriptionRequest.UserId" type="hidden" />
+            <input asp-for="SubscriptionRequest.SubscriptionId" type="hidden" />
+            <input asp-for="SubscriptionRequest.Salt" type="hidden" />
+            <input asp-for="SubscriptionRequest.Sig" type="hidden" />
+            <input class="p-2 mt-5" type="submit" value="Checkout" />
+        </div>
+    </form>
+</div>
